@@ -7,7 +7,11 @@
       "title": "Clean your microwave without scrubbing",
       "date": "2026-10-31",
       "products": [
-        { "name": "Angry Mama microwave steam cleaner (2-pack)", "asin": "B07VTP4LCS", "note": "Fill with water + lemon or vinegar, microwave, wipe" }
+        {
+          "name": "Angry Mama microwave steam cleaner (2-pack)",
+          "asin": "B07VTP4LCS",
+          "note": "Fill with water + lemon or vinegar, microwave, wipe"
+        }
       ]
     },
     {
@@ -16,7 +20,11 @@
       "title": "Keep fresh herbs alive for a week",
       "date": "2026-11-01",
       "products": [
-        { "name": "HAC24 herb keeper for the fridge", "asin": "B08TMX94M6", "note": "The flower trick, built into a box" }
+        {
+          "name": "HAC24 herb keeper for the fridge",
+          "asin": "B08TMX94M6",
+          "note": "The flower trick, built into a box"
+        }
       ]
     },
     {
@@ -25,7 +33,11 @@
       "title": "Peel ginger with a spoon",
       "date": "2026-11-01",
       "products": [
-        { "name": "Fackelmann ceramic ginger grater", "asin": "B00ARQUSM2", "note": "After peeling: grate it fine in seconds" }
+        {
+          "name": "Fackelmann ceramic ginger grater",
+          "asin": "B00ARQUSM2",
+          "note": "After peeling: grate it fine in seconds"
+        }
       ]
     },
     {
@@ -34,7 +46,89 @@
       "title": "Why chefs save pasta water",
       "date": "2026-11-01",
       "products": [
-        { "name": "Leifheit stainless steel spaghetti spoon", "asin": "B004DCAUF6", "note": "Lift pasta straight into the sauce, water included" }
+        {
+          "name": "Leifheit stainless steel spaghetti spoon",
+          "asin": "B004DCAUF6",
+          "note": "Lift pasta straight into the sauce, water included"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "emoji": "🧄",
+      "title": "Peel garlic in 20 seconds",
+      "date": "2026-11-02",
+      "products": [
+        {
+          "name": "Westmark Peel-Fix silicone garlic roller",
+          "asin": "B0007VHCDU",
+          "note": "One roll and the skin comes off"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "emoji": "🥚",
+      "title": "Boiled eggs that don't crack",
+      "date": "2026-11-02",
+      "products": [
+        {
+          "name": "Westmark egg piercer",
+          "asin": "B0054G46VO",
+          "note": "Makes the tiny air hole in one press"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "emoji": "🔪",
+      "title": "Sharpen a knife on a mug",
+      "date": "2026-11-02",
+      "products": [
+        {
+          "name": "Fiskars Roll-Sharp knife sharpener",
+          "asin": "B0BPCCNT1P",
+          "note": "Perfect angle in a few pulls"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "emoji": "🍌",
+      "title": "Bananas that stay yellow longer",
+      "date": "2026-11-03",
+      "products": [
+        {
+          "name": "Relaxdays bamboo banana hanger",
+          "asin": "B002036K7C",
+          "note": "Keeps them off the counter, no bruises"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "emoji": "🍳",
+      "title": "Save a burnt pan without scrubbing",
+      "date": "2026-11-03",
+      "products": [
+        {
+          "name": "Chainmail scrubber (stainless steel)",
+          "asin": "B07GV7B81T",
+          "note": "Gets the last bits off steel and cast iron"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "emoji": "🧊",
+      "title": "Crystal clear ice at home",
+      "date": "2026-11-03",
+      "products": [
+        {
+          "name": "dICE clear ice cube maker",
+          "asin": "B07CCGWMKQ",
+          "note": "Freezes top-down for perfect clear cubes"
+        }
       ]
     }
   ]
