@@ -1,0 +1,41 @@
+{
+  "storeTag": "getyourlifeha-21",
+  "videos": [
+    {
+      "n": 1,
+      "emoji": "🍋",
+      "title": "Clean your microwave without scrubbing",
+      "date": "2026-10-31",
+      "products": [
+        { "name": "Angry Mama microwave steam cleaner (2-pack)", "asin": "B07VTP4LCS", "note": "Fill with water + lemon or vinegar, microwave, wipe" }
+      ]
+    },
+    {
+      "n": 2,
+      "emoji": "🌿",
+      "title": "Keep fresh herbs alive for a week",
+      "date": "2026-11-01",
+      "products": [
+        { "name": "HAC24 herb keeper for the fridge", "asin": "B08TMX94M6", "note": "The flower trick, built into a box" }
+      ]
+    },
+    {
+      "n": 3,
+      "emoji": "🫚",
+      "title": "Peel ginger with a spoon",
+      "date": "2026-11-01",
+      "products": [
+        { "name": "Fackelmann ceramic ginger grater", "asin": "B00ARQUSM2", "note": "After peeling: grate it fine in seconds" }
+      ]
+    },
+    {
+      "n": 4,
+      "emoji": "🍝",
+      "title": "Why chefs save pasta water",
+      "date": "2026-11-01",
+      "products": [
+        { "name": "Leifheit stainless steel spaghetti spoon", "asin": "B004DCAUF6", "note": "Lift pasta straight into the sauce, water included" }
+      ]
+    }
+  ]
+}

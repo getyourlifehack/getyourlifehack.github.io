@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>getyourlifehack · Products</title>
+<meta name="description" content="Every product from the getyourlifehack videos, sorted by video number.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💡</text></svg>">
+<style>
+  :root {
+    --bg: #fbf7f0;
+    --card: #ffffff;
+    --ink: #1f1a14;
+    --muted: #6f655a;
+    --line: #ebe2d4;
+    --accent: #e8590c;
+    --accent-ink: #ffffff;
+    --chip: #fff1e3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16130f;
+      --card: #211d18;
+      --ink: #f4ede3;
+      --muted: #a89c8d;
+      --line: #342d25;
+      --accent: #ff7a2e;
+      --accent-ink: #1a0f06;
+      --chip: #3a2615;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 560px; margin: 0 auto; padding: 28px 16px 48px; }
+  header { text-align: center; margin-bottom: 20px; }
+  .logo { font-size: 44px; line-height: 1; }
+  h1 { font-size: 24px; margin: 8px 0 2px; letter-spacing: -0.02em; }
+  .sub { color: var(--muted); margin: 0; font-size: 15px; }
+  .search {
+    position: sticky; top: 0; z-index: 2;
+    background: var(--bg);
+    padding: 10px 0 14px;
+  }
+  .search input {
+    width: 100%;
+    font: inherit; font-size: 18px;
+    padding: 14px 16px;
+    border-radius: 14px;
+    border: 2px solid var(--line);
+    background: var(--card); color: var(--ink);
+    outline: none;
+  }
+  .search input:focus { border-color: var(--accent); }
+  .video {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 16px;
+    margin-bottom: 12px;
+  }
+  .video-head { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+  .num {
+    flex: none;
+    background: var(--chip); color: var(--accent);
+    font-weight: 800; font-size: 15px;
+    padding: 4px 10px; border-radius: 999px;
+  }
+  .video h2 { font-size: 17px; margin: 0; line-height: 1.3; }
+  .product {
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    padding: 10px 0;
+    border-top: 1px solid var(--line);
+  }
+  .product-name { font-weight: 600; font-size: 15px; }
+  .product-note { color: var(--muted); font-size: 13px; }
+  .btn {
+    flex: none;
+    background: var(--accent); color: var(--accent-ink);
+    text-decoration: none; font-weight: 700; font-size: 14px;
+    padding: 9px 14px; border-radius: 10px;
+  }
+  .soon { color: var(--muted); font-size: 14px; }
+  .empty { text-align: center; color: var(--muted); padding: 32px 8px; }
+  footer {
+    margin-top: 28px; color: var(--muted);
+    font-size: 12px; text-align: center; line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="logo">💡</div>
+    <h1>getyourlifehack</h1>
+    <p class="sub">Every product from the videos. Type the video number.</p>
+  </header>
+
+  <div class="search">
+    <input id="q" type="search" inputmode="search" placeholder="Video number, e.g. 12 or “ginger”" aria-label="Search by video number or topic">
+  </div>
+
+  <section id="list" aria-live="polite"></section>
+
+  <footer>
+    #ad · As an Amazon Associate I earn from qualifying purchases.<br>
+    Als Amazon-Partner verdiene ich an qualifizierten Verkäufen.<br>
+    Links go to Amazon.de.
+  </footer>
+</main>
+
+<script>
+  const list = document.getElementById('list');
+  const q = document.getElementById('q');
+  let data = { storeTag: '', videos: [] };
+
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+  function link(p) {
+    if (!data.storeTag || !p.asin) return null;
+    return `https://www.amazon.de/dp/${encodeURIComponent(p.asin)}?tag=${encodeURIComponent(data.storeTag)}`;
+  }
+
+  function render() {
+    const term = q.value.trim().toLowerCase().replace(/^#/, '');
+    const videos = [...data.videos]
+      .sort((a, b) => b.n - a.n)
+      .filter(v => !term
+        || String(v.n) === term
+        || v.title.toLowerCase().includes(term)
+        || (v.products || []).some(p => p.name.toLowerCase().includes(term)));
+
+    if (!data.videos.length) {
+      list.innerHTML = '<p class="empty">The first product lists are coming very soon 👀</p>';
+      return;
+    }
+    if (!videos.length) {
+      list.innerHTML = `<p class="empty">No video #${esc(term)} yet.</p>`;
+      return;
+    }
+    list.innerHTML = videos.map(v => `
+      <article class="video" id="v${v.n}">
+        <div class="video-head">
+          <span class="num">#${v.n}</span>
+          <h2>${esc(v.emoji)} ${esc(v.title)}</h2>
+        </div>
+        ${(v.products || []).map(p => {
+          const href = link(p);
+          return `<div class="product">
+            <div>
+              <div class="product-name">${esc(p.name)}</div>
+              ${p.note ? `<div class="product-note">${esc(p.note)}</div>` : ''}
+            </div>
+            ${href
+              ? `<a class="btn" href="${href}" target="_blank" rel="sponsored noopener">View on Amazon</a>`
+              : '<span class="soon">Link soon</span>'}
+          </div>`;
+        }).join('')}
+      </article>`).join('');
+  }
+
+  q.addEventListener('input', render);
+
+  fetch('products.json', { cache: 'no-store' })
+    .then(r => r.json())
+    .then(d => { data = d; })
+    .catch(() => {})
+    .finally(() => {
+      const hash = location.hash.replace(/^#v?/, '');
+      if (hash) q.value = hash;
+      render();
+    });
+</script>
+</body>
+</html>
