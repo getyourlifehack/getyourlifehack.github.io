@@ -130,6 +130,45 @@
           "note": "Freezes top-down for perfect clear cubes"
         }
       ]
+    },
+    {
+      "n": 11,
+      "emoji": "🫙",
+      "title": "Open any stuck jar in 30 seconds",
+      "date": "2026-11-04",
+      "products": [
+        {
+          "name": "Westmark multi-purpose opener with rubber lip",
+          "asin": "B000FDXBMQ",
+          "note": "The rubber lip grips any lid, no strength needed"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "emoji": "🍞",
+      "title": "Bring stale bread back to life",
+      "date": "2026-11-04",
+      "products": [
+        {
+          "name": "YOUDENOVA bamboo bread box with cutting board lid",
+          "asin": "B0C713T6MD",
+          "note": "Keeps bread fresh longer, the lid doubles as a cutting board"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "emoji": "🍎",
+      "title": "Stop cut apples turning brown",
+      "date": "2026-11-04",
+      "products": [
+        {
+          "name": "Westmark Divisorex apple & pear slicer",
+          "asin": "B07QGVWR35",
+          "note": "Cuts and cores a whole apple in one push"
+        }
+      ]
     }
   ]
 }
