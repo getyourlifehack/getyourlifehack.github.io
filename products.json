@@ -169,6 +169,45 @@
           "note": "Cuts and cores a whole apple in one push"
         }
       ]
+    },
+    {
+      "n": 14,
+      "emoji": "🧅",
+      "title": "Cut onions without crying",
+      "date": "2026-11-05",
+      "products": [
+        {
+          "name": "Tefal pull-cord chopper 500 ml",
+          "asin": "B07BFD6LHZ",
+          "note": "Pull the cord, the onion stays closed while it chops"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "emoji": "🍲",
+      "title": "Heat leftovers evenly",
+      "date": "2026-11-05",
+      "products": [
+        {
+          "name": "Curver microwave cover",
+          "asin": "B003IUN0MY",
+          "note": "Keeps the steam in, so the food heats evenly"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "emoji": "🥑",
+      "title": "Ripen an avocado overnight",
+      "date": "2026-11-05",
+      "products": [
+        {
+          "name": "Snips avocado saver",
+          "asin": "B083MLQLPS",
+          "note": "Keeps the other half green for days"
+        }
+      ]
     }
   ]
 }
