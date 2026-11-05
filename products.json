@@ -208,6 +208,45 @@
           "note": "Keeps the other half green for days"
         }
       ]
+    },
+    {
+      "n": 17,
+      "emoji": "🍝",
+      "title": "Stop a pot boiling over",
+      "date": "2026-11-06",
+      "products": [
+        {
+          "name": "Kochblume silicone boil-over lid",
+          "asin": "B07PZSH7FY",
+          "note": "Sits on the pot and stops it boiling over, hands free"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "emoji": "🍅",
+      "title": "Cut all your cherry tomatoes at once",
+      "date": "2026-11-06",
+      "products": [
+        {
+          "name": "Kuppels serrated tomato knife",
+          "asin": "B07VRD5YCF",
+          "note": "Serrated edge goes straight through the skin"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "emoji": "🍒",
+      "title": "Pit cherries with a bottle",
+      "date": "2026-11-06",
+      "products": [
+        {
+          "name": "Westmark cherry pitter",
+          "asin": "B001CJOF9A",
+          "note": "Pits a cherry in one squeeze"
+        }
+      ]
     }
   ]
 }
