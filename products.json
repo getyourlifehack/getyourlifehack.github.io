@@ -247,6 +247,32 @@
           "note": "Pits a cherry in one squeeze"
         }
       ]
+    },
+    {
+      "n": 20,
+      "emoji": "🥤",
+      "title": "Cold drink in 2 minutes",
+      "date": "2026-11-07",
+      "products": [
+        {
+          "name": "Silberthal bottle cooling cuff",
+          "asin": "B07RL6F5NF",
+          "note": "Keep it in the freezer and slip it over a bottle"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "emoji": "🥬",
+      "title": "Save limp lettuce",
+      "date": "2026-11-07",
+      "products": [
+        {
+          "name": "SveBake salad spinner",
+          "asin": "B098JPYFL9",
+          "note": "Gets the water off your salad in seconds"
+        }
+      ]
     }
   ]
 }
