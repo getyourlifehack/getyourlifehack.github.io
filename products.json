@@ -273,6 +273,32 @@
           "note": "Gets the water off your salad in seconds"
         }
       ]
+    },
+    {
+      "n": 22,
+      "emoji": "🧈",
+      "title": "Soft butter in 5 minutes",
+      "date": "2026-11-08",
+      "products": [
+        {
+          "name": "DOWAN French butter dish",
+          "asin": "B07YG7J5BF",
+          "note": "Keeps butter fresh and spreadable on the counter"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "emoji": "🍞",
+      "title": "Soften hard brown sugar",
+      "date": "2026-11-08",
+      "products": [
+        {
+          "name": "Brown Sugar Bear terracotta saver",
+          "asin": "B000MT65BC",
+          "note": "Soak it in water and it keeps brown sugar soft"
+        }
+      ]
     }
   ]
 }
