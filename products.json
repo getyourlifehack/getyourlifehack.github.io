@@ -299,6 +299,32 @@
           "note": "Soak it in water and it keeps brown sugar soft"
         }
       ]
+    },
+    {
+      "n": 24,
+      "emoji": "🍋",
+      "title": "More juice from a lemon",
+      "date": "2026-11-09",
+      "products": [
+        {
+          "name": "Zulay stainless steel lemon squeezer",
+          "asin": "B086JLYMHJ",
+          "note": "Squeezes every last drop out of a lemon"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "emoji": "🔪",
+      "title": "Stop your cutting board sliding",
+      "date": "2026-11-09",
+      "products": [
+        {
+          "name": "Extra thick cutting board with non-slip feet",
+          "asin": "B0B943MLH4",
+          "note": "Non-slip feet keep it in place while you cut"
+        }
+      ]
     }
   ]
 }
