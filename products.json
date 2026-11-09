@@ -325,6 +325,32 @@
           "note": "Non-slip feet keep it in place while you cut"
         }
       ]
+    },
+    {
+      "n": 26,
+      "emoji": "🍰",
+      "title": "Perfect cake slices",
+      "date": "2026-11-10",
+      "products": [
+        {
+          "name": "WMF Nuova cake server",
+          "asin": "B00I3YOJ5C",
+          "note": "Lifts every slice out in one piece"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "emoji": "🧂",
+      "title": "Fix a clumpy salt shaker",
+      "date": "2026-11-10",
+      "products": [
+        {
+          "name": "Acacia wood salt pot with airtight lid",
+          "asin": "B0FT3TDSX2",
+          "note": "Keeps the moisture out of your salt"
+        }
+      ]
     }
   ]
 }
