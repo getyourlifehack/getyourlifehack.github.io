@@ -351,6 +351,32 @@
           "note": "Keeps the moisture out of your salt"
         }
       ]
+    },
+    {
+      "n": 28,
+      "emoji": "🍕",
+      "title": "Reheat pizza without the soggy",
+      "date": "2026-11-11",
+      "products": [
+        {
+          "name": "D.Perlla 28 cm pan with glass lid",
+          "asin": "B0CGQY9TRW",
+          "note": "Crispy bottom, steamed cheese, one pan"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "emoji": "🧽",
+      "title": "Clean your blender in 30 seconds",
+      "date": "2026-11-11",
+      "products": [
+        {
+          "name": "MR.SIGA long-handled bottle brush",
+          "asin": "B087PC9KCD",
+          "note": "Reaches under the blades without touching them"
+        }
+      ]
     }
   ]
 }
