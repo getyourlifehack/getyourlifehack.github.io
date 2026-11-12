@@ -377,6 +377,32 @@
           "note": "Reaches under the blades without touching them"
         }
       ]
+    },
+    {
+      "n": 30,
+      "emoji": "🍊",
+      "title": "Peel an orange in seconds",
+      "date": "2026-11-12",
+      "products": [
+        {
+          "name": "Tupperware citrus peeler (2-pack)",
+          "asin": "B01L20AWH2",
+          "note": "Scores the peel for you, then just unroll it"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "emoji": "🍪",
+      "title": "Keep cookies soft all week",
+      "date": "2026-11-12",
+      "products": [
+        {
+          "name": "APS airtight glass jar 2 L with seal",
+          "asin": "B07W86HWQ2",
+          "note": "Seals in the moisture, add a slice of bread"
+        }
+      ]
     }
   ]
 }
