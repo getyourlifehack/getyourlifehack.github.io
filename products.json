@@ -403,6 +403,32 @@
           "note": "Seals in the moisture, add a slice of bread"
         }
       ]
+    },
+    {
+      "n": 32,
+      "emoji": "🏷️",
+      "title": "Remove stickers with cooking oil",
+      "date": "2026-11-13",
+      "products": [
+        {
+          "name": "Ehdis plastic scraper set with 100 blades",
+          "asin": "B07X9RSWC7",
+          "note": "Scrapes off the softened glue without scratching"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "emoji": "🌿",
+      "title": "Freeze herbs in olive oil",
+      "date": "2026-11-13",
+      "products": [
+        {
+          "name": "Silicone ice cube trays with lid (4-pack)",
+          "asin": "B0CFQ8WMWT",
+          "note": "Herb cubes pop right out, lid keeps them fresh"
+        }
+      ]
     }
   ]
 }
