@@ -429,6 +429,32 @@
           "note": "Herb cubes pop right out, lid keeps them fresh"
         }
       ]
+    },
+    {
+      "n": 34,
+      "emoji": "🥔",
+      "title": "Stop potatoes sprouting",
+      "date": "2026-11-14",
+      "products": [
+        {
+          "name": "TWOBERRY potato storage box (set of 3, with peeler)",
+          "asin": "B09KHH5SGQ",
+          "note": "Dark box with air holes, potatoes stay fresh for weeks"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "emoji": "🫖",
+      "title": "Descale your kettle without scrubbing",
+      "date": "2026-11-14",
+      "products": [
+        {
+          "name": "HEITMANN pure liquid citric acid 500 ml",
+          "asin": "B0GDW63FZJ",
+          "note": "Natural descaler made for kettles and coffee machines"
+        }
+      ]
     }
   ]
 }
