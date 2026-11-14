@@ -455,6 +455,32 @@
           "note": "Natural descaler made for kettles and coffee machines"
         }
       ]
+    },
+    {
+      "n": 36,
+      "emoji": "🧊",
+      "title": "Get rid of fridge smell",
+      "date": "2026-11-15",
+      "products": [
+        {
+          "name": "Fridge odour killer with bamboo activated carbon (set of 2)",
+          "asin": "B07TMP8RRG",
+          "note": "Sits in the corner and soaks up smells"
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "emoji": "🍚",
+      "title": "Fluffy rice, not mushy",
+      "date": "2026-11-15",
+      "products": [
+        {
+          "name": "REISHUNGER stainless steel rice washing bowl",
+          "asin": "B0BXB3JHJ3",
+          "note": "Drains the water, keeps every grain"
+        }
+      ]
     }
   ]
 }
