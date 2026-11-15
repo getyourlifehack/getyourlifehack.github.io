@@ -481,6 +481,32 @@
           "note": "Drains the water, keeps every grain"
         }
       ]
+    },
+    {
+      "n": 38,
+      "emoji": "👓",
+      "title": "Stop glasses fogging up",
+      "date": "2026-11-16",
+      "products": [
+        {
+          "name": "ZEISS anti-fog cloths (20-pack)",
+          "asin": "B09J8VP8YL",
+          "note": "Wipe once, no fog for hours"
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "emoji": "🍓",
+      "title": "Keep berries fresh for a week",
+      "date": "2026-11-16",
+      "products": [
+        {
+          "name": "Fridge organiser boxes with lid and drain basket (set of 5)",
+          "asin": "B0DRWW42S7",
+          "note": "Strainer keeps berries out of the water"
+        }
+      ]
     }
   ]
 }
