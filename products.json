@@ -533,6 +533,32 @@
           "note": "Lifts burnt spots off oven glass and hobs"
         }
       ]
+    },
+    {
+      "n": 42,
+      "emoji": "🚿",
+      "title": "Unclog a slow drain without chemicals",
+      "date": "2026-11-18",
+      "products": [
+        {
+          "name": "Silicone drain hair catcher (2-pack)",
+          "asin": "B09FLCCKFQ",
+          "note": "Sits over the drain and catches hair before it clogs the pipe"
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "emoji": "🥩",
+      "title": "Thaw frozen meat in 1 hour",
+      "date": "2026-11-18",
+      "products": [
+        {
+          "name": "MAVURA quick defrosting tray",
+          "asin": "B0BG6W4V1N",
+          "note": "Aluminium plate that pulls the cold out of frozen food"
+        }
+      ]
     }
   ]
 }
