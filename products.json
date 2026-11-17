@@ -507,6 +507,32 @@
           "note": "Strainer keeps berries out of the water"
         }
       ]
+    },
+    {
+      "n": 40,
+      "emoji": "👟",
+      "title": "Get rid of shoe smell",
+      "date": "2026-11-17",
+      "products": [
+        {
+          "name": "Langer & Messmer cedar wood shoe trees",
+          "asin": "B00975CEKI",
+          "note": "Soak up sweat and keep shoes smelling fresh"
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "emoji": "🔥",
+      "title": "Clean a brown oven door",
+      "date": "2026-11-17",
+      "products": [
+        {
+          "name": "Glass scraper with 15 replacement blades",
+          "asin": "B09JC6Q14S",
+          "note": "Lifts burnt spots off oven glass and hobs"
+        }
+      ]
     }
   ]
 }
