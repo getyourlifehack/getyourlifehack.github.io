@@ -559,6 +559,32 @@
           "note": "Aluminium plate that pulls the cold out of frozen food"
         }
       ]
+    },
+    {
+      "n": 44,
+      "emoji": "🪰",
+      "title": "Get rid of fruit flies",
+      "date": "2026-11-19",
+      "products": [
+        {
+          "name": "Trapango reusable fruit fly trap",
+          "asin": "B010O52076",
+          "note": "Live trap, just add vinegar bait, reusable"
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "emoji": "🔪",
+      "title": "Remove rust from a knife",
+      "date": "2026-11-19",
+      "products": [
+        {
+          "name": "Robert Herder rust eraser",
+          "asin": "B000R3VG7G",
+          "note": "Rubs rust spots off knife blades"
+        }
+      ]
     }
   ]
 }
