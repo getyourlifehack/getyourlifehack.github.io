@@ -611,6 +611,32 @@
           "note": "Rub under cold water, smell gone"
         }
       ]
+    },
+    {
+      "n": 48,
+      "emoji": "🥭",
+      "title": "Cut a mango without the mess",
+      "date": "2026-11-21",
+      "products": [
+        {
+          "name": "OXO Good Grips mango splitter",
+          "asin": "B000AREB5S",
+          "note": "Cuts around the seed in one push"
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "emoji": "🍝",
+      "title": "Perfect spaghetti portions",
+      "date": "2026-11-21",
+      "products": [
+        {
+          "name": "KitchenCraft Master Class spaghetti measure (stainless steel)",
+          "asin": "B000YJ7B40",
+          "note": "Holes for 1 to 4 portions"
+        }
+      ]
     }
   ]
 }
