@@ -637,6 +637,32 @@
           "note": "Holes for 1 to 4 portions"
         }
       ]
+    },
+    {
+      "n": 50,
+      "emoji": "🍅",
+      "title": "Get every last drop of ketchup",
+      "date": "2026-11-22",
+      "products": [
+        {
+          "name": "Upside-down flip caps for bottles (set of 6, 3 sizes)",
+          "asin": "B0DNK8NHD1",
+          "note": "Let any bottle stand upside down and drain"
+        }
+      ]
+    },
+    {
+      "n": 51,
+      "emoji": "🥚",
+      "title": "Separate eggs without breaking the yolk",
+      "date": "2026-11-22",
+      "products": [
+        {
+          "name": "Westmark stainless steel egg yolk separator",
+          "asin": "B0054GKUBE",
+          "note": "White runs through, yolk stays"
+        }
+      ]
     }
   ]
 }
