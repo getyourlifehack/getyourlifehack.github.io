@@ -663,6 +663,32 @@
           "note": "White runs through, yolk stays"
         }
       ]
+    },
+    {
+      "n": 52,
+      "emoji": "🥝",
+      "title": "Peel a kiwi in 5 seconds",
+      "date": "2026-11-23",
+      "products": [
+        {
+          "name": "LATRAT kiwi spoon cutters (10-pack)",
+          "asin": "B093WLFS5H",
+          "note": "Sharp edge cuts under the skin and scoops"
+        }
+      ]
+    },
+    {
+      "n": 53,
+      "emoji": "🔴",
+      "title": "Get pomegranate seeds out in 30 seconds",
+      "date": "2026-11-23",
+      "products": [
+        {
+          "name": "Beech wood cooking spoon set (6 pieces)",
+          "asin": "B07H4M7CCS",
+          "note": "Tap the back of the half, the seeds fall out"
+        }
+      ]
     }
   ]
 }
