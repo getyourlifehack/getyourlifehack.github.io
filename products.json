@@ -689,6 +689,32 @@
           "note": "Tap the back of the half, the seeds fall out"
         }
       ]
+    },
+    {
+      "n": 54,
+      "emoji": "🍓",
+      "title": "Hull strawberries with a straw",
+      "date": "2026-11-24",
+      "products": [
+        {
+          "name": "Stainless steel straws set with cleaning brushes",
+          "asin": "B07S842LFF",
+          "note": "Push it up from the bottom, the green top pops out"
+        }
+      ]
+    },
+    {
+      "n": 55,
+      "emoji": "🌽",
+      "title": "Corn off the cob without the mess",
+      "date": "2026-11-24",
+      "products": [
+        {
+          "name": "Zenker bundt cake pan, 25 cm",
+          "asin": "B000A42CL6",
+          "note": "Stand the cob in the middle hole, the kernels fall into the pan"
+        }
+      ]
     }
   ]
 }
