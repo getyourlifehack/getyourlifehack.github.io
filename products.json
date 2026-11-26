@@ -741,6 +741,32 @@
           "note": "Pours without a single drip"
         }
       ]
+    },
+    {
+      "n": 58,
+      "emoji": "🧀",
+      "title": "Grate soft cheese without the mess",
+      "date": "2026-11-26",
+      "products": [
+        {
+          "name": "Zyliss rotary cheese grater, white",
+          "asin": "B0000A9Z1P",
+          "note": "Grates without touching the blade"
+        }
+      ]
+    },
+    {
+      "n": 59,
+      "emoji": "🍨",
+      "title": "Scoop rock-hard ice cream",
+      "date": "2026-11-26",
+      "products": [
+        {
+          "name": "Fayomir stainless steel ice cream scoop",
+          "asin": "B08SJ5MFW4",
+          "note": "Solid metal scoop made for hard ice cream"
+        }
+      ]
     }
   ]
 }
